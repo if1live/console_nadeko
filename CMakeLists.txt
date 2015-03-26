@@ -1,0 +1,8 @@
+CMAKE_MINIMUM_REQUIRED( VERSION 2.8 )
+PROJECT( "console_nadeko" )
+
+SET( SRC_DIR ${CMAKE_CURRENT_SOURCE_DIR} )
+
+FILE( GLOB SRC_FILES "${SRC_DIR}/*.cpp" "${SRC_DIR}/*.h" )
+
+ADD_EXECUTABLE( console_nadeko ${SRC_FILES} )
